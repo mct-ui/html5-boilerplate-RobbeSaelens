@@ -12,7 +12,6 @@ html {
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
- *
  * Customize the background color to match your design.
  */
 
@@ -22,11 +21,7 @@ html {
     text-shadow: none;
 }
 
-/*
-    Elements: Images
-    ---
-    Default markup for images to make them responsive
-*/
+/*Elements: Images---Default markup for images to make them responsive*/
 
 img {
     max-width: 100%;
@@ -115,12 +110,12 @@ a {
     transition: all .1s ease-in-out;
 }
 
-a:hover,
-a:focus {
-    color: Crimson;
-}
-
 a:visited,
 a:active {
     color: BlueViolet;
+}
+
+a:hover,
+a:focus {
+    color: Crimson;
 }
