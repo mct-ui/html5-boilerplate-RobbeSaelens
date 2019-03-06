@@ -21,6 +21,11 @@ html {
     text-shadow: none;
 }
 
+body{
+    max-width: 42em;
+    margin: 0 auto;
+}
+
 /*Elements: Images---Default markup for images to make them responsive*/
 
 img {
